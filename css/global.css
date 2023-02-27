@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ff-heading: 'Epilogue', sans-serif;
+    --ff-texting: 'Open sans', sans-serif;
+
+    --hue: 220;
+    --bg-primaria: hsl(var(--hue), 22%, 20%);
+    --fc-primaria: hsl(var(--hue), 0%, 100%);
+    --fc-secundaria: hsl(var(--hue), 50%, 80%);
+    --fc-secundaria-dark: hsl(var(--hue), 100%, 11%, 1);
+
+    font-size: 62.5%;
+    --fs-body: 1.6rem;
+    --fs-heading: 4rem;
+}
