@@ -1,0 +1,31 @@
+header {
+    animation: topdown 2s;
+}
+
+main {
+    animation: downtop 2s 350ms backwards;
+}
+
+@keyframes topdown {
+    0% {
+        opacity: 0;
+        transform: translateY(-15px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes downtop {
+    0% {
+        opacity: 0;
+        transform: translate(15px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
