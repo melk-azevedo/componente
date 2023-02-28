@@ -8,7 +8,7 @@
     --ff-heading: 'Epilogue', sans-serif;
     --ff-texting: 'Open sans', sans-serif;
 
-    --hue: 220;
+    --hue: 240;
     --bg-primaria: hsl(var(--hue), 22%, 20%);
     --fc-primaria: hsl(var(--hue), 0%, 100%);
     --fc-secundaria: hsl(var(--hue), 50%, 80%);
@@ -16,5 +16,6 @@
 
     font-size: 62.5%;
     --fs-body: 1.6rem;
-    --fs-heading: 4rem;
+    --fs-heading: clamp(4rem, 1rem + 5vw, 6rem);
+    --fs-heading-sm: clamp(2.7rem, 0.5rem + 3vw, 4rem);
 }
