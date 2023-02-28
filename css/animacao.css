@@ -1,15 +1,15 @@
 header {
-    animation: topdown 2s;
+    animation: topdown .7s;
 }
 
 main {
-    animation: downtop 2s 350ms backwards;
+    animation: downtop 2s .6s backwards;
 }
 
 @keyframes topdown {
     0% {
         opacity: 0;
-        transform: translateY(-15px);
+        transform: translate(15px);
     }
 
     100% {
@@ -23,7 +23,7 @@ main {
         opacity: 0;
         transform: translate(15px);
     }
-    
+
     100% {
         opacity: 1;
         transform: translate(0);
